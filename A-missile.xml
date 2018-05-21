@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft name="Aircraft" url="" theme="Default" size="2.176749,1.371795,3.080967" boundsMin="-1.926749,1.361561,-2.580967" xmlVersion="6">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Cockpit-1" position="2.842171E-14,2.483356,0" rotation="0,0,0" drag="0.1198034,0.1198034,0.012,0.012,0.2539999,0.254" materials="7,0">
+        <Cockpit.State primaryCockpit="True" />
+      </Part>
+      <Part id="2" partType="Block-1" position="2.842171E-14,1.983353,-0.25" rotation="0,0,0" drag="0.008,0.008,0.258,0.258,0.258,0.258" materials="0">
+        <AdaptiveBlock.State state="5722165" />
+      </Part>
+      <Part id="3" partType="Block-1" position="-1.776357E-15,1.983356,0.25" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.254,0.254" materials="0">
+        <AdaptiveBlock.State state="11227189" />
+      </Part>
+      <Part id="5" partType="Missile-Long-1" position="-1.855275,1.435254,-1.738483" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.000001,1.000001,1.000001" massScale="0">
+        <Missile.State activationGroup="0" lockTime="0" maxRange="65536" minRange="0" maxTargetingAngle="360" maxSpeed="4096" maxFuelTime="60" maxForwardThrustForce="4096" maxHeadingAngleAdjustmentRate="1024" maxVelocityAngleAdjustmentRate="1024" proximityDetonationRangeMin="0" proximityDetonationRangeMax="32" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="6" partType="Missile-Ground-2" position="-2.517873,1.450921,-1.877686" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1,1,1" massScale="0">
+        <Missile.State activationGroup="0" function="AirToAir" lockTime="0" maxRange="65536" minRange="0" maxTargetingAngle="360" maxSpeed="4096" maxFuelTime="60" maxForwardThrustForce="4096" maxHeadingAngleAdjustmentRate="1024" maxVelocityAngleAdjustmentRate="1024" proximityDetonationRangeMin="0" proximityDetonationRangeMax="16" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="2" partB="1" attachPointsA="2" attachPointsB="2" />
+      <Connection partA="3" partB="1" attachPointsA="2" attachPointsB="1" />
+      <Connection partA="3" partB="2" attachPointsA="1" attachPointsB="0" />
+    </Connections>
+    <Bodies>
+      <Body partIds="1,2,3" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="5" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="6" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <Theme name="Custom">
+    <Material color="E9E9E9" r="0.25" m="0.5" s="0.7" />
+    <Material color="000000" r="0.5" m="0.5" s="0.83" />
+    <Material color="001F7F" r="0.5" m="0.5" s="0.83" />
+    <Material color="AA2A00" r="0.25" m="0.5" s="0.7" />
+    <Material color="3F3F3F" r="0" m="0.65" s="0.08" />
+    <Material color="5C0000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="FFF0F0" r="0" m="0.65" s="0.08" />
+    <Material color="FF0F0F" r="0" m="0.65" s="0.08" />
+    <Material color="AAAAAA" r="0" m="0.65" s="0.08" />
+    <Material color="3F3F3F" r="0.25" m="0.5" s="0.7" />
+    <Material color="ABABAB" r="0" m="0.65" s="0.08" />
+    <Material color="446677" r="0" m="0.65" s="0.08" />
+    <Material color="FF1143" r="0" m="0.65" s="0.08" />
+    <Material color="FF6A12" r="0" m="0.65" s="0.08" />
+    <Material color="000000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="1E1E1E" r="0" m="0.65" s="0.08" />
+    <Material color="D0D0D0" r="0" m="0.65" s="0.08" />
+  </Theme>
+</Aircraft>

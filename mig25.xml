@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft name="mig25" url="" theme="Default" size="0.6249997,1.220001,3.25" boundsMin="-0.3124999,1.358356,-0.375" xmlVersion="4">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Cockpit-1" position="0,2.428357,0.1125" rotation="0,0,0" drag="0.002,0.002,0.0032,0.0032,0.004,0.004" materials="7,0" scale="0.6,0.6,0.4">
+        <Cockpit.State primaryCockpit="True" />
+      </Part>
+      <Part id="2" partType="Fuselage-Body-1" position="0,1.858356,0.125" rotation="0,0,0" drag="0.008,0.008,0.3923292,0.3923292,0.9206514,0.9206517" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,2" rearScale="1,2" offset="0,0,2" deadWeight="0" buoyancy="0" fuelPercentage="0" cornerTypes="2,2,2,2,1,1,1,1" />
+      </Part>
+      <Part id="3" partType="Fuselage-Body-1" position="0,1.795856,1.1875" rotation="0,0,0" drag="0.04869093,0.04869093,0.4359674,0.4359674,0.7134003,0.7134005" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.25,1.25" rearScale="1,2" offset="0,0.25,2.25" deadWeight="0" buoyancy="0" fuelPercentage="0" cornerTypes="2,2,2,2,2,2,2,2" />
+      </Part>
+      <Part id="4" partType="Fuselage-Body-1" position="0,1.670856,2.3125" rotation="0,0,0" drag="0.1239023,0.1239023,0.5338326,0.5338326,0.4029694,0.4029695" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="1.25,1.25" offset="0,0.25,2.25" deadWeight="0" buoyancy="0" fuelPercentage="0" cornerTypes="2,2,2,2,2,2,2,2" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="1" partB="2" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="3" partB="2" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="4" partB="3" attachPointsA="1" attachPointsB="0" />
+    </Connections>
+    <Bodies>
+      <Body partIds="1,2,3,4" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <Theme name="Custom">
+    <Material color="E9E9E9" r="0.25" m="0.5" s="0.7" />
+    <Material color="000000" r="0.5" m="0.5" s="0.83" />
+    <Material color="001F7F" r="0.5" m="0.5" s="0.83" />
+    <Material color="AA2A00" r="0.25" m="0.5" s="0.7" />
+    <Material color="3F3F3F" r="0" m="0.65" s="0.08" />
+    <Material color="5C0000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="FFF0F0" r="0" m="0.65" s="0.08" />
+    <Material color="FF0F0F" r="0" m="0.65" s="0.08" />
+    <Material color="AAAAAA" r="0" m="0.65" s="0.08" />
+    <Material color="3F3F3F" r="0.25" m="0.5" s="0.7" />
+    <Material color="ABABAB" r="0" m="0.65" s="0.08" />
+    <Material color="446677" r="0" m="0.65" s="0.08" />
+    <Material color="FF1143" r="0" m="0.65" s="0.08" />
+    <Material color="FF6A12" r="0" m="0.65" s="0.08" />
+    <Material color="000000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="1E1E1E" r="0" m="0.65" s="0.08" />
+    <Material color="D0D0D0" r="0" m="0.65" s="0.08" />
+  </Theme>
+</Aircraft>
