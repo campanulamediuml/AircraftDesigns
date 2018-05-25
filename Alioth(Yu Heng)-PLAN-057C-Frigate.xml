@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Aircraft name="Alioth(Yu Heng)-PLAN-057C-Frigate" url="" theme="Custom" size="20.99109,37.07908,136.9349" boundsMin="-10.49638,1.795855,-67.93496" xmlVersion="6">
+<Aircraft name="Alioth(Yu Heng)-PLAN-057C-Frigate" url="" theme="Custom" size="20.99109,37.07908,136.9349" boundsMin="-10.49637,1.795855,-67.93496" xmlVersion="6">
   <Assembly>
     <Parts>
       <Part id="4" partType="Fuselage-Body-1" position="-0.0008401871,5.065858,-6.238076" rotation="0,0,0" drag="1.248988,1.248988,433.4709,433.4709,118.0147,105.4956" materials="5" scale="6,6,6">
@@ -1356,7 +1356,7 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="4,0.01" rearScale="4,0.00999999" offset="0,-0.05199999,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
-      <Part id="997" partType="Fuselage-Body-1" position="-10.3906,14.3237,-34.197" rotation="88.04256,89.99975,179.9996" drag="0,0,0,0,5.954539,0" materials="9" scale="6,6,6">
+      <Part id="997" partType="Fuselage-Body-1" position="-10.3906,14.3237,-34.197" rotation="88.04256,89.9998,179.9996" drag="0,0,0,0,5.954539,0" materials="9" scale="6,6,6">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="4,0.01" rearScale="4,0.00999999" offset="0,-0.05199999,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
@@ -1750,7 +1750,7 @@
       <Part id="1249" partType="Fuselage-Inlet-1" position="-3.60709,12.75833,-18.69054" rotation="90,180,0" drag="3.729307E-05,3.729307E-05,0,0,0.0003780667,0.000202649" materials="4,4,-3" scale="1,1,1" massScale="0">
         <Fuselage.State version="2" frontScale="0.25,0.25" rearScale="0.75,0.75" offset="0,0,2" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0.2" inletThicknessFront="0.2" inletThicknessRear="0.2" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
       </Part>
-      <Part id="1250" partType="Wing-2" position="-3.60709,13.07088,-18.69054" rotation="270,270,0" drag="0,0,0,0,0,0" centerOfMass="0,0.9482269,-1.125" materials="4,4" scale="0.25,0.25,0.25" massScale="0.2">
+      <Part id="1250" partType="Wing-2" position="-3.60709,13.07088,-18.69054" rotation="270,270,0" drag="0,0,0,0,0,0" centerOfMass="0,0.9482231,-1.125" materials="4,4" scale="0.25,0.25,0.25" massScale="0.2">
         <FuelTank.State fuel="0" capacity="0" />
         <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="true" wingPhysicsEnabled="true" rootLeadingOffset="1.25" rootTrailingOffset="3.25" tipLeadingOffset="1.25" tipTrailingOffset="2.25" tipPosition="0,2,-0.75" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="0">
           <ControlSurface start="1" end="8" inputId="Pitch" invert="false" maxDeflectionDegree="35" activationGroup="5" activationGroupLocksInput="true" trim="off" />
@@ -1764,7 +1764,7 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="true" wingPhysicsEnabled="true" rootLeadingOffset="7" rootTrailingOffset="3.25" tipLeadingOffset="5.25" tipTrailingOffset="2.25" tipPosition="0,1.5,-0.75" hingeDistance="0.1" allowControlSurfaces="true" fuelPercentage="0" />
       </Part>
-      <Part id="1253" partType="Wing-2" position="-3.6071,13.07088,-18.69054" rotation="270,90,0" drag="0,0,0,0,0,0" centerOfMass="0,0.9482269,-1.125" materials="4,4" scale="0.25,0.25,0.25" massScale="0.2">
+      <Part id="1253" partType="Wing-2" position="-3.6071,13.07088,-18.69054" rotation="270,90,0" drag="0,0,0,0,0,0" centerOfMass="0,0.9482231,-1.125" materials="4,4" scale="0.25,0.25,0.25" massScale="0.2">
         <FuelTank.State fuel="0" capacity="0" />
         <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="false" wingPhysicsEnabled="true" rootLeadingOffset="1.25" rootTrailingOffset="3.25" tipLeadingOffset="1.25" tipTrailingOffset="2.25" tipPosition="0,2,-0.75" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="0">
           <ControlSurface start="1" end="8" inputId="Pitch" invert="false" maxDeflectionDegree="35" activationGroup="5" activationGroupLocksInput="true" trim="off" />
@@ -2146,7 +2146,7 @@
         <InputController.State activationGroup="7" invert="true" min="-1" max="1" input="Yaw" />
         <JointRotator.State range="10" speed="1" disableBaseMesh="true" />
       </Part>
-      <Part id="1400" partType="Engine-Prop-5" position="5.271809,20.15464,-52.1803" rotation="270,0,0" drag="0.7599872,0.7599872,0.4203133,0.4203133,0.5231445,0.5966365" centerOfMass="0,1.626284E-06,0.01107422" materials="10,6,6,10,-3" disableAircraftCollisions="true" scale="2.34375,2.34375,2.34375">
+      <Part id="1400" partType="Engine-Prop-5" position="5.271809,20.15464,-52.1803" rotation="270,0,0" drag="0.7599871,0.7599871,0.4203133,0.4203133,0.5231445,0.5966365" centerOfMass="-2.034505E-07,1.626284E-06,0.01107422" materials="10,6,6,10,-3" disableAircraftCollisions="true" scale="2.34375,2.34375,2.34375">
         <InputController.State activationGroup="7" invert="false" min="0" max="0.1" input="Throttle" zeroOnDeactivate="false" />
         <InputController.State activationGroup="7" invert="false" min="-1" max="1" input="VTOL" />
         <PropEngineAdvanced.State power="40000" maxRpm="100000" propellerCount="5" diameter="3.81" chordScale="2" pitchControlType="Manual" propellerPitch="0.1" propellerPitchScale="0.1515152" throttleControlType="Manual" reverseRotation="False" propellerType="Cessna" />
@@ -2289,7 +2289,7 @@
         <InputController.State activationGroup="7" invert="false" min="-1" max="1" input="Yaw" />
         <JointRotator.State range="10" speed="1" disableBaseMesh="true" />
       </Part>
-      <Part id="1440" partType="Engine-Prop-5" position="5.271809,20.15464,-61.53981" rotation="270,0,0" drag="0.5938557,0.5938557,0.1671211,0.1671211,0.6131518,0.7357585" centerOfMass="0,-3.256529E-06,0.01107422" materials="9,9,4,4,-3" disableAircraftCollisions="true" scale="2.34375,2.34375,2.34375">
+      <Part id="1440" partType="Engine-Prop-5" position="5.271809,20.15464,-61.53981" rotation="270,0,0" drag="0.5938558,0.5938558,0.1671211,0.1671211,0.6131518,0.7357585" centerOfMass="-2.034505E-07,-3.256529E-06,0.01107422" materials="9,9,4,4,-3" disableAircraftCollisions="true" scale="2.34375,2.34375,2.34375">
         <InputController.State activationGroup="7" invert="false" min="0" max="0.1" input="Throttle" zeroOnDeactivate="false" />
         <InputController.State activationGroup="7" invert="false" min="-1" max="1" input="VTOL" />
         <PropEngineAdvanced.State power="40000" maxRpm="100000" propellerCount="5" diameter="3.81" chordScale="2" pitchControlType="Manual" propellerPitch="0.1" propellerPitchScale="0.1515152" throttleControlType="Manual" reverseRotation="False" propellerType="Cessna" />
