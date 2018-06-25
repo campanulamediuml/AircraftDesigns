@@ -2449,12 +2449,12 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="1,1" rearScale="1,1" offset="0,-1.5,1" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
       </Part>
-      <Part id="1710" partType="Engine-Prop-5" position="6.749161,4.585863,-58.93901" rotation="0,180,0" drag="0.002303022,0.002303022,0.6824984,0.6824984,0.6114642,0.6402165" centerOfMass="4.75869E-07,0,0.01107407" materials="0,3,4,10,-3" scale="1,1,1">
+      <Part id="1710" partType="Engine-Prop-5" position="6.749161,4.585863,-58.93901" rotation="0,180,0" drag="0.002303022,0.002303022,0.6824984,0.6824984,0.6114642,0.6402165" centerOfMass="4.758687E-07,0,0.01107788" materials="0,3,4,10,-3" scale="1,1,1">
         <InputController.State activationGroup="0" invert="false" min="0" max="1" input="Throttle" zeroOnDeactivate="false" />
         <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="VTOL" />
         <PropEngineAdvanced.State power="1000" maxRpm="2700" propellerCount="5" diameter="2.413" chordScale="10" pitchControlType="Fixed" propellerPitch="0.6" propellerPitchScale="1" throttleControlType="Manual" reverseRotation="False" propellerType="Warbird" />
       </Part>
-      <Part id="1711" partType="Engine-Prop-5" position="-6.75088,4.585863,-58.93901" rotation="0,180,0" drag="0.002458784,0.002458784,0.6824984,0.6824984,0.7201645,0.5358385" centerOfMass="-4.778053E-07,0,0.01107407" materials="0,3,4,10,-3" scale="1,1,1">
+      <Part id="1711" partType="Engine-Prop-5" position="-6.75088,4.585863,-58.93901" rotation="0,180,0" drag="0.002458784,0.002458784,0.6824984,0.6824984,0.7201645,0.5358385" centerOfMass="-4.778056E-07,0,0.01107788" materials="0,3,4,10,-3" scale="1,1,1">
         <InputController.State activationGroup="0" invert="false" min="0" max="1" input="Throttle" zeroOnDeactivate="false" />
         <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="VTOL" />
         <PropEngineAdvanced.State power="1000" maxRpm="2700" propellerCount="5" diameter="2.413" chordScale="10" pitchControlType="Fixed" propellerPitch="0.6" propellerPitchScale="1" throttleControlType="Manual" reverseRotation="False" propellerType="Warbird" />
@@ -2658,9 +2658,9 @@
       </Part>
       <Part id="2090" partType="HingeRotator-1" position="-0.0008518696,22.63406,-56.86927" rotation="270,180,0" drag="0.1302,0.1302,0,0,0.133,0.133" materials="0,3,10" scale="3.456,3.456,0.8640001">
         <InputController.State activationGroup="7" invert="false" min="-1" max="1" input="Roll" />
-        <JointRotator.State range="10" speed="1" disableBaseMesh="true" />
+        <JointRotator.State range="15" speed="1" disableBaseMesh="true" />
       </Part>
-      <Part id="2091" partType="Engine-Prop-5" position="-0.0008518696,22.85006,-56.86927" rotation="270,45,0" drag="0.1967767,0.1967767,0,0,0.250212,0.250212" centerOfMass="-2.697358E-06,-2.69876E-06,0.01107407" materials="9,9,0,0,-3" disableAircraftCollisions="true" scale="1,1,1">
+      <Part id="2091" partType="Engine-Prop-5" position="-0.0008518696,22.85006,-56.86927" rotation="270,45,0" drag="0.1967767,0.1967767,0,0,0.250212,0.250212" centerOfMass="-5.394756E-06,-5.396158E-06,0.01107407" materials="9,9,0,0,-3" disableAircraftCollisions="true" scale="1,1,1">
         <InputController.State activationGroup="7" invert="false" min="0" max="1" input="Throttle" zeroOnDeactivate="false" />
         <InputController.State activationGroup="7" invert="false" min="-1" max="1" input="VTOL" />
         <PropEngineAdvanced.State power="11500" maxRpm="1000000" propellerCount="4" diameter="16" chordScale="1" pitchControlType="Manual" propellerPitch="0" propellerPitchScale="0.1515152" throttleControlType="Manual" reverseRotation="False" propellerType="Cessna" />
