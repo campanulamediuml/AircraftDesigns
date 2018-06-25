@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft name="ship cannon" url="" theme="Custom" size="9.999999,4.125001,10" boundsMin="-5,1.733353,-5.000002" xmlVersion="6">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Cockpit-1" position="0,2.983354,3.875" rotation="0,0,0" drag="0.1358034,0.1358034,0,0,0.2659999,0.266" materials="7,0" scale="1,1,1">
+        <Cockpit.State primaryCockpit="True" />
+      </Part>
+      <Part id="4" partType="Fuselage-Body-1" position="0,2.233354,0" rotation="90,0,0" drag="12.7385,12.7385,101,101,12.67251,12.66877" materials="0" scale="2,2,1" massScale="4">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="10,10" rearScale="10,10" offset="0,0,2" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
+      </Part>
+      <Part id="5" partType="JointRotator-1" position="0,2.983354,-1.500001" rotation="0,0,0" drag="0.2220494,0.2220494,0,0,0.3829999,0.383" materials="0,3,10" scale="1,1,1">
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Trim" />
+        <JointRotator.State range="90" speed="10" damperMultiplier="65536" />
+      </Part>
+      <Part id="6" partType="Fuselage-Body-1" position="0,3.358354,-1.500001" rotation="270,180,0" drag="0.4187471,0.4187471,0,0,0.4341601,0.4423182" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="4,4" rearScale="4,4" offset="0,0,0.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="7" partType="Fuselage-Body-1" position="0,3.733354,-1.500001" rotation="270,180,0" drag="1.014526,1.014526,0,0,1.192455,1.191655" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="4.25,5" rearScale="4,4.5" offset="0,0,1" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="15" partType="Fuselage-Body-1" position="0.625,4.233354,-1.468751" rotation="270,180,0" drag="0.4469909,0.4469909,0,0,0.07629842,1.139" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.75,5.25" rearScale="1.75,5" offset="0,-0.125,1" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="16" partType="Fuselage-Body-1" position="0.625,4.858354,-1.562501" rotation="270,180,0" drag="0.5408559,0.5408559,1.46432E-08,1.46432E-08,0.022456,1.7155" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.75,4.25" rearScale="1.75,5.25" offset="0,0.5,1.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="18" partType="Fuselage-Body-1" position="-0.625,4.233354,-1.468751" rotation="270,180,0" drag="0.4469909,0.4469909,0,0,1.080501,0.08029841" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.75,5.25" rearScale="1.75,5" offset="0,-0.125,1" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="21" partType="Fuselage-Body-1" position="0,4.608354,-2.500001" rotation="270,180,0" drag="0.2470528,0.2470528,7.782402E-09,7.782402E-09,0.1975,0.1975" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,1" rearScale="1,1" offset="0,0,2.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="22" partType="Fuselage-Body-1" position="0,5.545854,-2.406251" rotation="270,180,0" drag="0,0,2.458256E-07,2.458256E-07,0.006000001,0.006000001" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,1" rearScale="1,1" offset="0,-0.375,1.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="24" partType="Fuselage-Body-1" position="0,4.795854,-1.687501" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,1" rearScale="1,1" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="25" partType="Fuselage-Body-1" position="0,4.795854,-0.562502" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.75,0.75" rearScale="0.75,0.75" offset="0,0,1.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="26" partType="Fuselage-Body-1" position="0,4.795854,0.0624982" rotation="0,0,0" drag="0.005968859,0.005968859,0,0,0.06568939,0.06568938" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,1" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="27" partType="Fuselage-Body-1" position="0,4.79582,0.62499" rotation="0,0,0" drag="0.01693423,0.01693423,0,0,0.1333788,0.06968939" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.6,0.6" rearScale="0.6,0.6" offset="0,0,1.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="30" partType="Fuselage-Inlet-1" position="0,4.795854,1.624999" rotation="0,0,0" drag="0.2979643,0.2979643,0,0,0.4029998,0.403" materials="0,0,-3" scale="1,1,1">
+        <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,2.75" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0.2" inletThicknessFront="0.7" inletThicknessRear="0.77" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="31" partType="Fuselage-Inlet-1" position="0.8779941,4.483354,-2.156251" rotation="0,90,0" drag="0.003994897,0.003994897,0,0,0,0.125" materials="1,1,-3" scale="1,1,1">
+        <Fuselage.State version="2" frontScale="0.75,1.5" rearScale="0.75,1.5" offset="0,0,0.75" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0.2" inletThicknessFront="0.6" inletThicknessRear="0.66" autoSizeOnConnected="false" cornerTypes="1,1,1,1,1,1,1,1" />
+      </Part>
+      <Part id="32" partType="Fuselage-Inlet-1" position="-0.8779941,4.483354,-2.156251" rotation="0,270,0" drag="0.003994897,0.003994897,0,0,0.125,0" materials="1,1,-3" scale="1,1,1">
+        <Fuselage.State version="2" frontScale="0.75,1.5" rearScale="0.75,1.5" offset="0,0,0.75" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0.2" inletThicknessFront="0.6" inletThicknessRear="0.66" autoSizeOnConnected="false" cornerTypes="1,1,1,1,1,1,1,1" />
+      </Part>
+      <Part id="33" partType="Fuselage-Inlet-1" position="0.5625,4.445853,-2.566258" rotation="0,180,0" drag="0,0,1.024E-09,1.024E-09,0.008,0.0705" materials="1,1,-3" scale="1,1,1">
+        <Fuselage.State version="2" frontScale="0.75,1.5" rearScale="0.75,1.5" offset="0,0,0.75" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0.2" inletThicknessFront="0.6" inletThicknessRear="0.66" autoSizeOnConnected="false" cornerTypes="1,1,1,1,1,1,1,1" />
+      </Part>
+      <Part id="35" partType="Fuselage-Body-1" position="-0.625,4.858354,-1.562501" rotation="270,180,0" drag="0.5408559,0.5408559,1.56672E-08,1.56672E-08,1.719501,0.026456" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.75,4.25" rearScale="1.75,5.25" offset="0,0.5,1.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="37" partType="Fuselage-Body-1" position="0.5625,5.545854,-1.750001" rotation="270,180,0" drag="0.5616127,0.5616127,5.032068E-07,5.032068E-07,0.0269696,1.245625" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.25,3" rearScale="1.75,4.25" offset="-0.25,0.25,1.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="38" partType="Fuselage-Body-1" position="-0.5625,5.545854,-1.750001" rotation="270,180,0" drag="0.5616129,0.5616129,5.032068E-07,5.032068E-07,1.245626,0.0269696" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.25,3" rearScale="1.75,4.25" offset="0.25,0.25,1.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="39" partType="SmallRotator-1" position="-0.1874999,4.795854,-1.687501" rotation="0,90,0" drag="0,0,0,0,0,0" materials="0,3,10" scale="1,1,1">
+        <InputController.State activationGroup="0" invert="false" min="-0.1" max="1" input="VTOL" />
+        <JointRotator.State range="60" speed="1" damperMultiplier="65536" disableBaseMesh="true" />
+      </Part>
+      <Part id="40" partType="Fuselage-Body-1" position="0,5.070848,-1.687501" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,1" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="41" partType="Fuselage-Body-1" position="0,5.070848,-0.562501" rotation="0,0,0" drag="0.01199946,0.01199946,0,0,0.2063385,0.2063385" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.25,0.25" rearScale="0.25,0.25" offset="0,0,3.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="42" partType="Fuselage-Body-1" position="0,5.070854,0.4374986" rotation="0,0,0" drag="0.003999888,0.003999888,0,0,0.05974244,0.05974244" materials="0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,1" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="44" partType="Fuselage-Inlet-1" position="0,5.070854,0.749999" rotation="0,0,0" drag="0.003999945,0.003999945,0,0,0.06649999,0.06649999" materials="0,0,-3" scale="1,1,1">
+        <Fuselage.State version="2" frontScale="0.4,0.4" rearScale="0.4,0.4" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0.2" inletThicknessFront="0.7" inletThicknessRear="0.77" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
+      </Part>
+      <Part id="45" partType="Detacher-2" position="0,4.795846,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="46" partType="Bomb-2" position="0,4.795846,0.62499" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.0270000026">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="47" partType="Detacher-2" position="0,4.795846,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="56" partType="Bomb-2" position="0,4.795835,0.62499" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.0270000026">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="57" partType="Detacher-2" position="-0.2373502,4.932712,2.738826" rotation="90,0,0" drag="0.046,0.046,0.046,0.046,0.047,0.047" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="58" partType="Bomb-2" position="0,4.795835,0.62499" rotation="1.366038E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.0270000026">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="59" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="60" partType="Bomb-2" position="0,4.795835,0.62499" rotation="1.366038E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.0270000026">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="61" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="62" partType="Bomb-2" position="-0.2373502,5.082712,2.840326" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="63" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="64" partType="Bomb-2" position="0,4.795835,0.62499" rotation="1.366038E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.0270000026">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="65" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="66" partType="Bomb-2" position="0,4.795826,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="67" partType="Detacher-2" position="0,4.795846,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="68" partType="Bomb-2" position="0,4.795826,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="69" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="70" partType="Bomb-2" position="0,4.795826,0.6249862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="71" partType="Detacher-2" position="0,4.795846,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="72" partType="Bomb-2" position="0,4.795826,0.6249862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="73" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="74" partType="Bomb-2" position="0,4.795826,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="75" partType="Bomb-2" position="0,4.795826,0.6249862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="76" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="77" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="78" partType="Bomb-2" position="0,4.79582,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="79" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="80" partType="Bomb-2" position="0,4.79582,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="81" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="82" partType="Bomb-2" position="0,4.79582,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="83" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="84" partType="Bomb-2" position="0,4.79582,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="85" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="86" partType="Bomb-2" position="0,4.79582,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="87" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="88" partType="Bomb-2" position="0,4.79582,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="89" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="90" partType="Bomb-2" position="0,4.79582,0.62499" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="91" partType="Bomb-2" position="0,4.945854,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="92" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="93" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="94" partType="Bomb-2" position="0,4.945848,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="95" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="96" partType="Bomb-2" position="0,4.945854,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="97" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="98" partType="Bomb-2" position="0,4.945848,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="99" partType="Detacher-2" position="0,4.795848,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="100" partType="Bomb-2" position="0,4.945848,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="101" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="102" partType="Bomb-2" position="0,4.945854,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="103" partType="Detacher-2" position="0,4.795848,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="104" partType="Bomb-2" position="0,4.945854,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="105" partType="Detacher-2" position="0,4.795848,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="106" partType="Bomb-2" position="0,4.945854,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="107" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="108" partType="Bomb-2" position="0,4.945848,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="109" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="110" partType="Bomb-2" position="0,4.945848,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="111" partType="Detacher-2" position="0,4.795849,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="112" partType="Bomb-2" position="0,4.945854,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="113" partType="Detacher-2" position="0,4.795849,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="114" partType="Bomb-2" position="0,4.945849,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="115" partType="Detacher-2" position="0,4.795854,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="116" partType="Bomb-2" position="0,4.945849,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="117" partType="Detacher-2" position="0,4.795849,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="118" partType="Bomb-2" position="0,4.945854,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="119" partType="Detacher-2" position="0,4.795849,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="120" partType="Bomb-2" position="0,4.945849,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="121" partType="Detacher-2" position="0,4.795849,0.62499" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="122" partType="Bomb-2" position="0,4.945849,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="123" partType="Detacher-2" position="0,4.795849,0.62499" rotation="90,0,0" drag="0.0009997928,0.0009997928,0,0,0,0.045" materials="8" scale="0.1,0.1,0.1" massScale="0.001">
+        <Detacher.State enabled="True" group="0" detachForce="100000" detacherUiMaxForce="100000" />
+      </Part>
+      <Part id="124" partType="Bomb-2" position="0,4.945849,0.62499" rotation="270,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="0.3,0.3,0.3" massScale="0.027">
+        <Bomb.State activationGroup="0" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="1" partB="4" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="5" partB="4" attachPointsA="3" attachPointsB="2" />
+      <Connection partA="6" partB="5" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="7" partB="6" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="15" partB="7" attachPointsA="1" attachPointsB="2" />
+      <Connection partA="18" partB="7" attachPointsA="1" attachPointsB="2" />
+      <Connection partA="21" partB="7" attachPointsA="1" attachPointsB="2" />
+      <Connection partA="31" partB="15" attachPointsA="0,1,2" attachPointsB="2,2,2" />
+      <Connection partA="16" partB="15" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="33" partB="15" attachPointsA="1" attachPointsB="4" />
+      <Connection partA="37" partB="16" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="32" partB="18" attachPointsA="1" attachPointsB="2" />
+      <Connection partA="35" partB="18" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="21" partB="22" attachPointsA="0" attachPointsB="1" />
+      <Connection partA="25" partB="24" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="24" partB="39" attachPointsA="6" attachPointsB="0" />
+      <Connection partA="40" partB="24" attachPointsA="4" attachPointsB="3" />
+      <Connection partA="26" partB="25" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="27" partB="26" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="30" partB="27" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="42" partB="27" attachPointsA="4" attachPointsB="3" />
+      <Connection partA="45" partB="30" attachPointsA="1,2" attachPointsB="0,2" />
+      <Connection partA="47" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="59" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="61" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="63" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="65" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="67" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="69" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="71" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="73" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="76" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="77" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="79" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="81" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="83" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="85" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="87" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="89" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="92" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="93" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="95" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="97" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="99" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="101" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="103" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="105" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="107" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="109" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="111" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="113" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="115" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="117" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="119" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="121" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="123" partB="30" attachPointsA="1,2" attachPointsB="2,2" />
+      <Connection partA="38" partB="35" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="39" partB="35" attachPointsA="1" attachPointsB="6" />
+      <Connection partA="41" partB="40" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="42" partB="41" attachPointsA="1" attachPointsB="2" />
+      <Connection partA="44" partB="42" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="46" partB="45" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="56" partB="47" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="62" partB="57" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="58" partB="61" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="60" partB="59" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="64" partB="63" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="66" partB="65" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="68" partB="67" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="70" partB="69" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="72" partB="71" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="74" partB="73" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="75" partB="76" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="78" partB="77" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="80" partB="79" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="82" partB="81" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="84" partB="83" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="86" partB="85" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="88" partB="87" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="90" partB="89" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="91" partB="92" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="94" partB="93" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="96" partB="95" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="98" partB="97" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="100" partB="99" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="102" partB="101" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="104" partB="103" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="106" partB="105" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="108" partB="107" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="110" partB="109" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="112" partB="111" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="114" partB="113" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="116" partB="115" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="118" partB="117" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="120" partB="119" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="122" partB="121" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="124" partB="123" attachPointsA="0" attachPointsB="0" />
+    </Connections>
+    <Bodies>
+      <Body partIds="1,4,5" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="6,7,15,31,16,37,33,18,32,35,38,39,21,22" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="24,25,26,27,30,42,41,40,44" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="45" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="46" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="47" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="56" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="57" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="58" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="59" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="60" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="61" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="62" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="63" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="64" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="65" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="66" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="67" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="68" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="69" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="70" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="71" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="72" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="73" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="74" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="75" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="76" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="77" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="78" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="79" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="80" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="81" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="82" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="83" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="84" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="85" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="86" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="87" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="88" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="89" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="90" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="91" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="92" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="93" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="94" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="95" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="96" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="97" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="98" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="99" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="100" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="101" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="102" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="103" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="104" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="105" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="106" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="107" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="108" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="109" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="110" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="111" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="112" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="113" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="114" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="115" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="116" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="117" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="118" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="119" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="120" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="121" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="122" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="123" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="124" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <Theme name="Custom">
+    <Material color="E9E9E9" r="0.15" m="0.5" s="0.7" />
+    <Material color="000000" r="0.3" m="0.5" s="0.83" />
+    <Material color="001F7F" r="0.3" m="0.5" s="0.83" />
+    <Material color="AA2A00" r="0.15" m="0.5" s="0.7" />
+    <Material color="3F3F3F" r="0" m="0.65" s="0.08" />
+    <Material color="5C0000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="FFF0F0" r="0" m="0.65" s="0.08" />
+    <Material color="FF0F0F" r="0" m="0.65" s="0.08" />
+    <Material color="AAAAAA" r="0" m="0.65" s="0.08" />
+    <Material color="3F3F3F" r="0.15" m="0.5" s="0.7" />
+    <Material color="ABABAB" r="0" m="0.65" s="0.08" />
+    <Material color="446677" r="0" m="0.65" s="0.08" />
+    <Material color="FF1143" r="0" m="0.65" s="0.08" />
+    <Material color="FF6A12" r="0" m="0.65" s="0.08" />
+    <Material color="000000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="1E1E1E" r="0" m="0.65" s="0.08" />
+    <Material color="D0D0D0" r="0" m="0.65" s="0.08" />
+  </Theme>
+</Aircraft>
