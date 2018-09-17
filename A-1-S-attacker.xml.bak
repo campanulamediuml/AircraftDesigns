@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Aircraft name="A-1-S-attacker" url="" theme="Custom" size="16.0682,4.977232,18.79993" boundsMin="-8.034101,1.720854,-9.399964" xmlVersion="6">
+<Aircraft name="A-1-S-attacker" url="p13Wj6" theme="Custom" size="16.0682,4.977232,18.79993" boundsMin="-8.034101,1.720854,-9.399964" xmlVersion="6">
   <Assembly>
     <Parts>
       <Part id="4" partType="Fuselage-Body-1" position="4.61936E-06,4.220552,3.899963" rotation="0,0,0" drag="0.07079995,0.07079995,0.6940392,0.6940392,0.5462108,0.5462094" materials="9" disableAircraftCollisions="true">
@@ -655,30 +655,26 @@
         <Detacher.State enabled="True" group="0" detachForce="900.0001" detacherUiMaxForce="10000" />
       </Part>
       <Part id="759" partType="Missile-Ground-2" position="1.459981,2.659771,-0.8374724" rotation="0.01981438,1.771544E-09,1.024529E-05" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.9999999,1,0.9999998">
-        <Missile.State activationGroup="0" firingDelay="1" lockTime="1" maxRange="100000" maxTargetingAngle="360" maxSpeed="680" maxFuelTime="300" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="1" killCam="true" lockTime="1" maxRange="100000" maxTargetingAngle="360" maxSpeed="280" maxFuelTime="300" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="760" partType="Pylon-2" position="-1.45998,2.89928,-1.5874" rotation="0,0,0" drag="0.025999,0.025999,0.025,0.025,0.001287175,3.177929E-05" materials="0" disableAircraftCollisions="true" scale="1,0.25,1">
         <Detacher.State enabled="True" group="0" detachForce="900.0001" detacherUiMaxForce="10000" />
       </Part>
-      <Part id="761" partType="Missile-Ground-2" position="-1.45998,2.659771,-0.8374724" rotation="0.01981438,-1.771544E-09,-1.024529E-05" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.9999999,1,0.9999998">
-        <Missile.State activationGroup="0" firingDelay="1" lockTime="1" maxRange="100000" maxTargetingAngle="360" maxSpeed="680" maxFuelTime="300" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
-        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
-      </Part>
       <Part id="765" partType="Missile-Ground-1" position="4.7143,3.044529,-2.215" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="2,2,2" massScale="8">
-        <Missile.State activationGroup="0" lockTime="0.1" maxRange="1E+08" maxTargetingAngle="180" maxSpeed="1500" maxForwardThrustForce="100000" />
+        <Missile.State activationGroup="0" killCam="true" lockTime="0.1" maxRange="1E+08" maxTargetingAngle="180" maxSpeed="1500" maxForwardThrustForce="100000" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="766" partType="Missile-Ground-1" position="3.554301,3.03452,-1.9525" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="2,2,2" massScale="8">
-        <Missile.State activationGroup="0" lockTime="0.1" maxRange="1E+08" maxTargetingAngle="180" maxSpeed="1500" maxForwardThrustForce="100000" />
+        <Missile.State activationGroup="0" killCam="true" lockTime="0.1" maxRange="1E+08" maxTargetingAngle="180" maxSpeed="1500" maxForwardThrustForce="100000" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="767" partType="Missile-Ground-1" position="-3.5543,3.03452,-1.9525" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="2,2,2" massScale="8">
-        <Missile.State activationGroup="0" lockTime="0.1" maxRange="1E+08" maxTargetingAngle="180" maxSpeed="1500" maxForwardThrustForce="100000" />
+        <Missile.State activationGroup="0" killCam="true" lockTime="0.1" maxRange="1E+08" maxTargetingAngle="180" maxSpeed="1500" maxForwardThrustForce="100000" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="768" partType="Missile-Ground-1" position="-4.714299,3.044529,-2.215" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" scale="2,2,2" massScale="8">
-        <Missile.State activationGroup="0" lockTime="0.1" maxRange="1E+08" maxTargetingAngle="180" maxSpeed="1500" maxForwardThrustForce="100000" />
+        <Missile.State activationGroup="0" killCam="true" lockTime="0.1" maxRange="1E+08" maxTargetingAngle="180" maxSpeed="1500" maxForwardThrustForce="100000" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="770" partType="Detacher-2" position="-0.7724804,3.520537,-6.024963" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="1,1,1">
@@ -686,6 +682,10 @@
       </Part>
       <Part id="771" partType="Detacher-2" position="0.7724813,3.520537,-6.024963" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="1,1,1">
         <Detacher.State enabled="True" group="6" detachForce="1000000" detacherUiMaxForce="1000000" />
+      </Part>
+      <Part id="772" partType="Missile-Ground-2" position="-1.45998,2.659771,-0.8374723" rotation="0.01981438,1.771544E-09,1.024529E-05" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.9999999,1,0.9999998">
+        <Missile.State activationGroup="0" firingDelay="1" killCam="true" lockTime="1" maxRange="100000" maxTargetingAngle="360" maxSpeed="280" maxFuelTime="300" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
     </Parts>
     <Connections>
@@ -906,7 +906,7 @@
       <Connection partA="759" partB="751" attachPointsA="0" attachPointsB="2" />
       <Connection partA="768" partB="755" attachPointsA="0" attachPointsB="2" />
       <Connection partA="765" partB="756" attachPointsA="0" attachPointsB="2" />
-      <Connection partA="761" partB="760" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="772" partB="760" attachPointsA="0" attachPointsB="2" />
     </Connections>
     <Bodies>
       <Body partIds="4,5,688,555,6,21,13,457,9,7,524,8,463,459,458,509,462,461,729,727,730,731,732,728,526,518,639,519,520,521,537,621,643,541,542,641,522,523,525,580,582,584,726,513,581,579,583,510,498,487,485,499,511,512,642,538,620,644,540,539,733,480,724,481,482,516,515,514,517,556,602,603,604,605,606,607,719,716,734,720,721,735,557,477,596,597,599,598,600,601,18,19,22" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
@@ -965,13 +965,13 @@
       <Body partIds="756" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
       <Body partIds="759" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
       <Body partIds="760" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
-      <Body partIds="761" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
       <Body partIds="765" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
       <Body partIds="766" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
       <Body partIds="767" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
       <Body partIds="768" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
       <Body partIds="770" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
       <Body partIds="771" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="772" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
     </Bodies>
   </Assembly>
   <Theme name="Custom">
