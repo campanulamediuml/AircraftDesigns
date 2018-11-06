@@ -317,7 +317,7 @@
         <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Pitch" />
         <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Roll" />
         <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Yaw" zeroOnDeactivate="false" />
-        <Gyroscope.State activationGroup="None" autoOrient="true" stability="50" speed="100" yawPower="0" pitchRange="0" rollRange="0" />
+        <Gyroscope.State activationGroup="None" autoOrient="true" stability="300" speed="300" yawPower="0" pitchRange="0" rollRange="0" />
       </Part>
       <Part id="283" partType="Fuselage-Body-1" position="-8.583011E-06,7.264627,-67.01629" rotation="0,0,0" drag="0.006477598,0.006477598,0,0,7.373917E-10,2.891828E-09" materials="3" scale="1.2,1.2,1.2" massScale="2000">
         <FuelTank.State fuel="0" capacity="0" />
@@ -2204,22 +2204,22 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="0.25,0" rearScale="0.25,0.25" offset="0,0.25,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
-      <Part id="2349" partType="Fuselage-Inlet-1" position="-0.8183476,10.6194,65.50434" rotation="45,355.0613,250" drag="0,0,0,0,0,0" materials="4,4,-3">
+      <Part id="2349" partType="Fuselage-Inlet-1" position="-0.8183476,10.6194,65.50434" rotation="45.00001,355.0613,250" drag="0,0,0,0,0,0" materials="4,4,-3">
         <Fuselage.State version="2" frontScale="1,1" rearScale="1.25,1.25" offset="0,0,2.25" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0.2" inletThicknessFront="1" inletThicknessRear="1.1" autoSizeOnConnected="false" cornerTypes="3,3,3,3,2,2,2,2" />
       </Part>
-      <Part id="2350" partType="Fuselage-Body-1" position="-0.8602176,10.13326,65.9887" rotation="45,355.0613,250" drag="0,0,0,0,0,0" materials="4">
+      <Part id="2350" partType="Fuselage-Body-1" position="-0.8602176,10.13326,65.9887" rotation="45.00001,355.0613,250" drag="0,0,0,0,0,0" materials="4">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="0.75,0.75" rearScale="0.75,0.75" offset="0,0,0.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="2351" partType="Fuselage-Body-1" position="-0.8830777,9.868103,66.25286" rotation="45,355.0613,250" drag="0,0,0,0,0,0" materials="4" scale="1,1,1">
+      <Part id="2351" partType="Fuselage-Body-1" position="-0.8830777,9.868103,66.25286" rotation="45.00001,355.0613,250" drag="0,0,0,0,0,0" materials="4" scale="1,1,1">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="0.25,0.25" rearScale="0.5,0.5" offset="0,0,1" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,2,2,2,2" />
       </Part>
-      <Part id="2352" partType="Fuselage-Body-1" position="-0.9020715,9.647143,66.47298" rotation="45,355.0613,250" drag="0,0,0,0,0,0" materials="4">
+      <Part id="2352" partType="Fuselage-Body-1" position="-0.9020715,9.647143,66.47298" rotation="45.00001,355.0613,250" drag="0,0,0,0,0,0" materials="4">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="0.25,0.25" rearScale="0.25,0.25" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
-      <Part id="2353" partType="Fuselage-Body-1" position="-0.9096795,9.558773,66.56108" rotation="45,355.0613,250" drag="0,0,0,0,0,0" materials="4">
+      <Part id="2353" partType="Fuselage-Body-1" position="-0.9096795,9.558773,66.56108" rotation="45.00001,355.0613,250" drag="0,0,0,0,0,0" materials="4">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="0,0" rearScale="0.25,0.25" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
