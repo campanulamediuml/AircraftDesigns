@@ -955,19 +955,19 @@
         <JointRotator.State range="10" speed="0.5" disableBaseMesh="true" />
       </Part>
       <Part id="1118" partType="Missile-Long-1" position="1,8.392164,32.4868" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="1119" partType="Missile-Long-1" position="2.375,8.392164,32.4868" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="1121" partType="Missile-Long-1" position="1,8.392164,31.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="1125" partType="Missile-Long-1" position="0.999999,8.392164,29.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="1126" partType="Fuselage-Body-1" position="2.913997,11.49008,30.48689" rotation="0,270,0" drag="0.011012,0.011012,4.000001E-05,4.000001E-05,0.1630292,1.002" materials="9" scale="1,1,1">
@@ -1617,245 +1617,245 @@
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,2.75" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0.2" inletThicknessFront="0.7" inletThicknessRear="0.77" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
       </Part>
       <Part id="2207" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2208" partType="Bomb-2" position="-3.643025E-07,12.43013,36.94862" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2209" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2210" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2211" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2212" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="1.366038E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2213" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2214" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="1.366038E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2215" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2216" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="1.366038E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2217" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2218" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2219" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2220" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2221" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2222" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2223" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2224" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2225" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2226" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2227" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2228" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2229" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2230" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2231" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2232" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2233" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2234" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2235" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2236" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2237" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2238" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2239" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2240" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2241" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2242" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2243" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2244" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2245" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2246" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2247" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2248" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2249" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2250" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2251" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2252" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2253" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2254" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2255" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2256" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2257" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2258" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2259" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2260" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2261" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2262" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2263" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2264" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2265" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2266" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2267" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2268" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2269" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2270" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2271" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2272" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2273" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2274" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2275" partType="Detacher-2" position="-3.643025E-07,12.43009,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="2276" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
@@ -2697,51 +2697,51 @@
         <FuelTank.State fuel="50000" capacity="50000" />
       </Part>
       <Part id="2754" partType="Missile-Long-1" position="1,8.392164,30.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2757" partType="Missile-Long-1" position="2.375,8.392164,30.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2758" partType="Missile-Long-1" position="2.375,8.392164,31.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2761" partType="Missile-Long-1" position="2.375,8.392164,29.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2780" partType="Missile-Long-1" position="-1.000001,8.39217,32.4868" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2784" partType="Missile-Long-1" position="-2.375001,8.39217,32.4868" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2786" partType="Missile-Long-1" position="-2.375001,8.39217,31.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2790" partType="Missile-Long-1" position="-1.000001,8.39217,31.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2794" partType="Missile-Long-1" position="-2.375001,8.39217,30.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2798" partType="Missile-Long-1" position="-1.000001,8.39217,30.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2802" partType="Missile-Long-1" position="-1,8.39217,29.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2807" partType="Missile-Long-1" position="-2.375001,8.39217,29.48679" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.25" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2811" partType="Fuselage-Body-1" position="1.713988,10.79451,30.98689" rotation="0,0,0" drag="0.1665929,0.1665929,0.001183999,0.001183999,0.01080354,0.013952" materials="9" scale="1,1.2,1">
@@ -3352,455 +3352,455 @@
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4000" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4001" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4002" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4003" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4004" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4005" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4006" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4007" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4008" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4009" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4010" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4011" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4012" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4013" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4014" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4015" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4016" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4017" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4018" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4019" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4020" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4021" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4022" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4023" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4024" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4025" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4026" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4027" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4028" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4029" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4030" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4031" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4032" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4033" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4034" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4035" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4036" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4037" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4038" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4039" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4040" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4041" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4042" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4043" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4044" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4045" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4046" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4047" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4048" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4049" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4050" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4051" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4052" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4053" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4054" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4055" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4056" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4057" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4058" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4059" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4060" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4061" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4062" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4063" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4064" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4065" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4066" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4067" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4068" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4069" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4070" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4071" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4072" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4073" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4074" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4075" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4076" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4077" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4078" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4079" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4080" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4081" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4082" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4083" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4084" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4085" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4086" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4087" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4088" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4089" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4090" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4091" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4092" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4093" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4094" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4095" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4096" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4097" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4098" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4099" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4100" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4101" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4102" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4103" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4104" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4105" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4106" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4107" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4108" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4109" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4110" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4111" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4112" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4113" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4114" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4115" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4116" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4117" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4118" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4119" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4120" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4121" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4122" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4123" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4124" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4125" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4126" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4127" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="4128" partType="Detacher-2" position="-3.643025E-07,12.43011,36.54867" rotation="90,0,0" drag="0,0,0,0,0,0" materials="8" scale="0.12,0.12,0.1216" massScale="0.008">
-        <Detacher.State enabled="True" group="0" detachForce="80000" detacherUiMaxForce="80000" />
+        <Detacher.State enabled="True" group="0" detachForce="200000" detacherUiMaxForce="200000" />
       </Part>
       <Part id="4129" partType="Bomb-2" position="-3.643025E-07,12.43011,36.94862" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.36,0.36,0.3648" massScale="0.216000021">
         <Bomb.State activationGroup="0" firingDelay="0.5" />
