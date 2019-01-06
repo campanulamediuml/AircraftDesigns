@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Aircraft name="Aircraft" url="" theme="Default" size="0.5,1.000002,1" boundsMin="-0.25,1.733354,2.5" hidden="true">
+   <Assembly>
+      <Parts>
+         <Part id="1" partType="Cockpit-1" position="2.980235E-08,2.483356,3" rotation="0,0,0" centerOfMass="0,0,0" drag="0.1198033,0.1198033,0.012,0.012,0.5039999,0.5039999" materials="7,0" />
+         <Part id="2" partType="Block-1" position="2.980235E-08,1.983353,2.75" rotation="0,0,0" centerOfMass="0,0,0" drag="0.008,0.008,0.258,0.258,0.258,0.258" materials="0">
+            <AdaptiveBlock.State state="5722165" />
+         </Part>
+         <Part id="3" partType="Block-1" position="2.980232E-08,1.983356,3.25" rotation="0,0,0" centerOfMass="0,0,0" drag="0.258,0.258,0.254,0.254,0.254,0.254" materials="0">
+            <AdaptiveBlock.State state="11227189" />
+         </Part>
+      </Parts>
+      <Connections>
+         <Connection partA="2" partB="1" attachPointsA="2" attachPointsB="2" />
+         <Connection partA="3" partB="1" attachPointsA="2" attachPointsB="1" />
+         <Connection partA="3" partB="2" attachPointsA="1" attachPointsB="0" />
+      </Connections>
+      <Bodies>
+         <Body partIds="1,2,3" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      </Bodies>
+   </Assembly>
+   <Theme name="Custom">
+      <Material color="E9E9E9" r="0.25" />
+      <Material color="000000" r="0.5" />
+      <Material color="001F7F" r="0.5" />
+      <Material color="AA2A00" r="0.25" />
+      <Material color="3F3F3F" r="0" />
+      <Material color="5C0000" r="0" />
+      <Material color="FFFFFF" r="0" />
+      <Material color="FFF0F0" r="0" />
+      <Material color="FF0F0F" r="0" />
+      <Material color="AAAAAA" r="0" />
+      <Material color="3F3F3F" r="0.25" />
+      <Material color="ABABAB" r="0" />
+      <Material color="446677" r="0" />
+      <Material color="FF1143" r="0" />
+      <Material color="FF6A12" r="0" />
+      <Material color="000000" r="0" />
+      <Material color="FFFFFF" r="0" />
+      <Material color="1E1E1E" r="0" />
+      <Material color="D0D0D0" r="0" />
+   </Theme>
+</Aircraft>
