@@ -274,7 +274,7 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="0.125,0.85" rearScale="0.125,0.85" offset="1,0.75,1.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
       </Part>
-      <Part id="1653" partType="Wing-2" position="-3.733205,7.433658,-73.99455" rotation="2.412672E-13,-4.071621E-13,180" drag="0,0,0,0,0,0" centerOfMass="-8.723419E-08,6.175954,0.4999967" materials="5,5" scale="0.38016,0.38016,0.38016" massScale="0.001">
+      <Part id="1653" partType="Wing-2" position="-3.733205,7.433658,-73.99455" rotation="2.412672E-13,-4.071621E-13,180" drag="0,0,0,0,0,0" centerOfMass="-8.723408E-08,6.175956,0.4999967" materials="5,5" scale="0.38016,0.38016,0.38016" massScale="0.001">
         <FuelTank.State fuel="0" capacity="0" />
         <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="false" wingPhysicsEnabled="true" rootLeadingOffset="8.75" rootTrailingOffset="7.25" tipLeadingOffset="5.75" tipTrailingOffset="5.75" tipPosition="0,13.25,0.25" hingeDistance="0.7" allowControlSurfaces="true" fuelPercentage="0">
           <ControlSurface start="3" end="15" inputId="Yaw" invert="false" maxDeflectionDegree="35" activationGroupLocksInput="true" trim="off" />
@@ -400,12 +400,12 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="0.125,0.85" rearScale="0.125,0.85" offset="-1,0.75,1.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,3,3,3,3" />
       </Part>
-      <Part id="1815" partType="Engine-Prop-5" position="4.642373,3.384293,-66.94127" rotation="358.2,180,1.398559E-05" drag="0.006817376,0.006817376,0.6240705,0.6240705,0.5777728,0.5423298" centerOfMass="5.007548E-07,-1.933824E-07,0.01107547" materials="3,3,3,3,-3" disableAircraftCollisions="true" scale="0.9504001,0.9504001,0.9503998">
+      <Part id="1815" partType="Engine-Prop-5" position="4.642373,3.384293,-66.94127" rotation="358.2,180,1.398559E-05" drag="0.006817376,0.006817376,0.6240705,0.6240705,0.5777728,0.5423298" centerOfMass="5.007548E-07,-4.441212E-07,0.01107546" materials="3,3,3,3,-3" disableAircraftCollisions="true" scale="0.9504001,0.9504001,0.9503998">
         <InputController.State activationGroup="0" invert="false" min="0" max="1" input="Throttle" zeroOnDeactivate="false" />
         <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="VTOL" />
         <PropEngineAdvanced.State power="1000" maxRpm="300" propellerCount="6" diameter="3.175" chordScale="10" pitchControlType="Fixed" propellerPitch="0.6" propellerPitchScale="1" throttleControlType="Manual" reverseRotation="False" propellerType="Scimitar" />
       </Part>
-      <Part id="1816" partType="Wing-2" position="4.642246,7.433658,-73.99455" rotation="2.412672E-13,4.071621E-13,180" drag="0,0,0,0,0,0" centerOfMass="5.399191E-07,6.175954,0.4999967" materials="5,5" scale="0.38016,0.38016,0.38016" massScale="0.001">
+      <Part id="1816" partType="Wing-2" position="4.642246,7.433658,-73.99455" rotation="2.412672E-13,4.071621E-13,180" drag="0,0,0,0,0,0" centerOfMass="5.399192E-07,6.175956,0.4999967" materials="5,5" scale="0.38016,0.38016,0.38016" massScale="0.001">
         <FuelTank.State fuel="0" capacity="0" />
         <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="true" wingPhysicsEnabled="true" rootLeadingOffset="8.75" rootTrailingOffset="7.25" tipLeadingOffset="5.75" tipTrailingOffset="5.75" tipPosition="0,13.25,0.25" hingeDistance="0.7" allowControlSurfaces="true" fuelPercentage="0">
           <ControlSurface start="3" end="15" inputId="Yaw" invert="false" maxDeflectionDegree="35" activationGroupLocksInput="true" trim="off" />
@@ -439,7 +439,7 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="0.35,0.35" rearScale="0.35,0.35" offset="0,0,10" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="1842" partType="Engine-Prop-5" position="-3.733329,3.384293,-66.94127" rotation="358.2,180,-1.398559E-05" drag="0.00682249,0.00682249,0.6240703,0.6240703,0.7443446,0.4255325" centerOfMass="-9.677235E-10,-1.933824E-07,0.01107547" materials="3,3,3,3,-3" disableAircraftCollisions="true" scale="0.9504001,0.9504001,0.9503998">
+      <Part id="1842" partType="Engine-Prop-5" position="-3.733329,3.384293,-66.94127" rotation="358.2,180,-1.398559E-05" drag="0.00682249,0.00682249,0.6240703,0.6240703,0.7443446,0.4255325" centerOfMass="-9.676623E-10,-4.441212E-07,0.01107546" materials="3,3,3,3,-3" disableAircraftCollisions="true" scale="0.9504001,0.9504001,0.9503998">
         <InputController.State activationGroup="0" invert="false" min="0" max="1" input="Throttle" zeroOnDeactivate="false" />
         <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="VTOL" />
         <PropEngineAdvanced.State power="1000" maxRpm="300" propellerCount="6" diameter="3.175" chordScale="10" pitchControlType="Fixed" propellerPitch="0.6" propellerPitchScale="1" throttleControlType="Manual" reverseRotation="False" propellerType="Scimitar" />
@@ -1839,7 +1839,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2655" partType="Missile-Ground-1" position="3.11298,22.10587,6.726961" rotation="330,90,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2656" partType="Fuselage-Body-1" position="5.006727,23.19921,6.726969" rotation="30.00003,270,270" drag="0.001502905,0.001502905,0,0,0.002833075,0.2195063" materials="0" scale="1.125,1.125,0.6249999">
@@ -1850,7 +1850,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2658" partType="Missile-Ground-1" position="3.439474,21.54036,6.727081" rotation="330,90,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2659" partType="Fuselage-Body-1" position="5.333214,22.63372,6.727095" rotation="30.00003,270,270" drag="0.003799312,0.003799312,0,0,0.002520618,0.2205063" materials="0" scale="1.125,1.125,0.6249999">
@@ -1861,7 +1861,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2661" partType="Missile-Ground-1" position="3.439474,21.54036,7.377081" rotation="330,90,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2662" partType="Fuselage-Body-1" position="5.333214,22.63372,7.377081" rotation="30.00004,270,90.00002" drag="0.1328978,0.1328978,0,0,0.00224807,0.2195063" materials="0" scale="1.125,1.125,0.6249999">
@@ -1872,7 +1872,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2664" partType="Missile-Ground-1" position="3.11298,22.10587,7.377203" rotation="330,90,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2665" partType="Fuselage-Body-1" position="5.006727,23.19921,7.377081" rotation="30.00004,270,90.00002" drag="0.07508982,0.07508982,0,0,0.001878646,0.2185063" materials="0" scale="1.125,1.125,0.6249999">
@@ -1915,7 +1915,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2697" partType="Missile-Ground-1" position="3.112974,22.10587,3.162963" rotation="330,90,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2698" partType="Fuselage-Body-1" position="5.006721,23.19921,3.162969" rotation="30.00003,270,270" drag="0.0013868,0.0013868,0,0,0.002967773,0.2195063" materials="0" scale="1.125,1.125,0.6249999">
@@ -1926,7 +1926,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2700" partType="Missile-Ground-1" position="3.439468,21.54036,3.163083" rotation="330,90,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2701" partType="Fuselage-Body-1" position="5.333208,22.63372,3.163095" rotation="30.00003,270,270" drag="0.003290009,0.003290009,0,0,0.002793555,0.2205063" materials="0" scale="1.125,1.125,0.6249999">
@@ -1937,7 +1937,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2703" partType="Missile-Ground-1" position="3.439468,21.54036,3.813083" rotation="330,90,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2704" partType="Fuselage-Body-1" position="5.333208,22.63372,3.813082" rotation="30.00004,270,90.00002" drag="0.09953417,0.09953417,0,0,0.002315426,0.003" materials="0" scale="1.125,1.125,0.6249999">
@@ -1948,7 +1948,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2706" partType="Missile-Ground-1" position="3.112974,22.10587,3.813205" rotation="330,90,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="4" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2707" partType="Fuselage-Body-1" position="5.006721,23.19921,3.813083" rotation="30.00004,270,90.00002" drag="0.05644072,0.05644072,0,0,0.001922293,0.002" materials="0" scale="1.125,1.125,0.6249999">
@@ -1991,7 +1991,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2718" partType="Missile-Ground-1" position="-2.203901,22.10587,3.813203" rotation="330,270,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2719" partType="Fuselage-Body-1" position="-4.097648,23.19921,3.813196" rotation="30.00004,90,270" drag="0.07174103,0.07174103,0,0,0.2195063,0.0029455" materials="0" scale="1.125,1.125,0.6249999">
@@ -2002,7 +2002,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2721" partType="Missile-Ground-1" position="-2.530395,21.54036,3.813083" rotation="330,270,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2722" partType="Fuselage-Body-1" position="-4.424135,22.63372,3.813069" rotation="30.00004,90,270" drag="0.003540403,0.003540403,0,0,0.2434399,0.004295387" materials="0" scale="1.125,1.125,0.6249999">
@@ -2013,7 +2013,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2724" partType="Missile-Ground-1" position="-2.530395,21.54036,3.163083" rotation="330,270,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2725" partType="Fuselage-Body-1" position="-4.424135,22.63372,3.163083" rotation="30.00002,90,90.00002" drag="0.001796445,0.001796445,0,0,0.2424399,0.004359882" materials="0" scale="1.125,1.125,0.625">
@@ -2024,7 +2024,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2727" partType="Missile-Ground-1" position="-2.203901,22.10587,3.16296" rotation="330,270,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2728" partType="Fuselage-Body-1" position="-4.097648,23.19921,3.163083" rotation="30.00002,90,90.00002" drag="0.0007847913,0.0007847913,0,0,0.2185063,0.001999409" materials="0" scale="1.125,1.125,0.625">
@@ -2067,7 +2067,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2739" partType="Missile-Ground-1" position="-2.2039,22.10587,7.377199" rotation="330,270,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2740" partType="Fuselage-Body-1" position="-4.097648,23.19921,7.377192" rotation="30.00004,90,270" drag="0.09154568,0.09154568,0,0,0.4360125,0.002860634" materials="0" scale="1.125,1.125,0.6249999">
@@ -2078,7 +2078,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2742" partType="Missile-Ground-1" position="-2.530395,21.54036,7.377079" rotation="330,270,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2743" partType="Fuselage-Body-1" position="-4.424134,22.63372,7.377066" rotation="30.00004,90,270" drag="0.004067904,0.004067904,0,0,0.4808797,0.0042305" materials="0" scale="1.125,1.125,0.6249999">
@@ -2089,7 +2089,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2745" partType="Missile-Ground-1" position="-2.530395,21.54036,6.72708" rotation="330,270,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2746" partType="Fuselage-Body-1" position="-4.424134,22.63372,6.72708" rotation="30.00002,90,90.00002" drag="0.00201896,0.00201896,0,0,0.2424399,0.00404928" materials="0" scale="1.125,1.125,0.625">
@@ -2100,7 +2100,7 @@
         <Detacher.State enabled="True" group="9" detachForce="50" detacherUiMaxForce="100" />
       </Part>
       <Part id="2748" partType="Missile-Ground-1" position="-2.2039,22.10587,6.726957" rotation="330,270,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="2.5,2.5,2.5">
-        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="5000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
+        <Missile.State activationGroup="3" firingDelay="0.5" killCam="true" lockTime="1" maxRange="1000000" maxTargetingAngle="180" maxSpeed="290" maxFuelTime="300" maxForwardThrustForce="8000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="2749" partType="Fuselage-Body-1" position="-4.097648,23.19921,6.72708" rotation="30.00002,90,90.00002" drag="0.0008117377,0.0008117377,0,0,0.2185063,0.001902588" materials="0" scale="1.125,1.125,0.625">
@@ -2694,7 +2694,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3125" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3126" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2707,7 +2707,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3129" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3130" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2720,7 +2720,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3133" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3134" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2733,7 +2733,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3137" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3138" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2746,7 +2746,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3141" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3142" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2759,7 +2759,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3145" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3146" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2772,7 +2772,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3149" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3150" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2785,7 +2785,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3153" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3154" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2798,7 +2798,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3157" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3158" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2811,7 +2811,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3161" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3162" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2824,7 +2824,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3165" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3166" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2837,7 +2837,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3169" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3170" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2850,7 +2850,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3173" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3174" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2863,7 +2863,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3177" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3178" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2876,7 +2876,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3181" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3182" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2889,7 +2889,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3185" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3186" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2902,7 +2902,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3189" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3190" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2915,7 +2915,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3193" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3194" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2928,7 +2928,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3197" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3198" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2941,7 +2941,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3201" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3202" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2954,7 +2954,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3205" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3206" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2967,7 +2967,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3209" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3210" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2980,7 +2980,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3213" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3214" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -2993,7 +2993,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3217" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3218" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3006,7 +3006,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3221" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3222" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3019,7 +3019,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3225" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3226" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3032,7 +3032,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3229" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3230" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3045,7 +3045,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3233" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3234" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3058,7 +3058,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3237" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3238" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3071,7 +3071,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3241" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3242" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3084,7 +3084,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3245" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3246" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3097,7 +3097,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3249" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3250" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3110,7 +3110,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3253" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3254" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3123,7 +3123,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3257" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3258" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3136,7 +3136,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3261" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3262" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3149,7 +3149,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3265" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3266" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3162,7 +3162,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3269" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3270" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3175,7 +3175,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3273" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3274" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3188,7 +3188,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3277" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3278" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3201,7 +3201,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3281" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3282" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3214,7 +3214,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3285" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3286" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3227,7 +3227,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3289" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3290" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3240,7 +3240,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3293" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3294" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3253,7 +3253,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3297" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3298" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3266,7 +3266,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3301" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3302" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3279,7 +3279,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3305" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3306" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3292,7 +3292,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3309" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3310" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3305,7 +3305,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3313" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3314" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3318,7 +3318,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3317" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3318" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3331,7 +3331,7 @@
         <Detacher.State enabled="True" group="9" detachForce="10000" detacherUiMaxForce="10000" />
       </Part>
       <Part id="3321" partType="Bomb-1" position="0.4546031,16.97227,54.91508" rotation="1.001791E-05,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="0.24,0.24,0.24" massScale="0.064">
-        <Bomb.State activationGroup="2" firingDelay="0.5" />
+        <Bomb.State activationGroup="2" firingDelay="1" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3322" partType="FuelTank-1" position="0.4546031,16.9722,59.74933" rotation="0,0,0" drag="0.003286684,0.003286684,0,0,0.002,0.002" materials="0,3,4" scale="0.228,0.228,0.228" massScale="0.98">
@@ -3495,259 +3495,259 @@
         <Rotator.State enabled="True" />
       </Part>
       <Part id="3366" partType="Missile-Long-1" position="2.79964,13,37.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3367" partType="Missile-Long-1" position="2.799642,13,38.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3368" partType="Missile-Long-1" position="2.79964,13,39.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3369" partType="Missile-Long-1" position="2.799642,13,40.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3370" partType="Missile-Long-1" position="2.799642,13,42.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3371" partType="Missile-Long-1" position="2.799642,13,43.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3372" partType="Missile-Long-1" position="2.799642,13,44.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3373" partType="Missile-Long-1" position="2.799642,13,45.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3374" partType="Missile-Long-1" position="-1.890559,13,37.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3375" partType="Missile-Long-1" position="-1.890562,13,38.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3376" partType="Missile-Long-1" position="-1.890559,13,39.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3377" partType="Missile-Long-1" position="-1.890562,13,40.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3378" partType="Missile-Long-1" position="-1.890562,13,42.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3379" partType="Missile-Long-1" position="-1.890562,13,43.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3380" partType="Missile-Long-1" position="-1.890562,13,44.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3381" partType="Missile-Long-1" position="-1.890562,13,45.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3382" partType="Missile-Long-1" position="-0.5155621,13,37.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3383" partType="Missile-Long-1" position="-0.5155621,13,38.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3384" partType="Missile-Long-1" position="-0.5155621,13,39.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3385" partType="Missile-Long-1" position="-0.5155621,13,40.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3386" partType="Missile-Long-1" position="-0.5155621,13,42.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3387" partType="Missile-Long-1" position="-0.5155621,13,43.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3388" partType="Missile-Long-1" position="-0.5155621,13,44.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3389" partType="Missile-Long-1" position="-0.5155621,13,45.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3390" partType="Missile-Long-1" position="1.424643,13,37.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3391" partType="Missile-Long-1" position="1.424643,13,38.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3392" partType="Missile-Long-1" position="1.424643,13,39.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3393" partType="Missile-Long-1" position="1.424643,13,40.81856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3394" partType="Missile-Long-1" position="1.424643,13,42.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3395" partType="Missile-Long-1" position="1.424643,13,43.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3396" partType="Missile-Long-1" position="1.424643,13,44.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3397" partType="Missile-Long-1" position="1.424643,13,45.06856" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3398" partType="Missile-Long-1" position="4.071708,18.5,-21.93803" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3399" partType="Missile-Long-1" position="3.071708,18.5,-21.93803" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3400" partType="Missile-Long-1" position="2.071708,18.5,-21.93803" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3401" partType="Missile-Long-1" position="1.071708,18.5,-21.93803" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3402" partType="Missile-Long-1" position="-0.1626258,18.5,-21.93803" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3403" partType="Missile-Long-1" position="-1.162626,18.5,-21.93803" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3404" partType="Missile-Long-1" position="-2.162626,18.5,-21.93803" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3405" partType="Missile-Long-1" position="-3.162626,18.5,-21.93803" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3406" partType="Missile-Long-1" position="-3.162626,18.5,-18.53802" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3407" partType="Missile-Long-1" position="-2.162626,18.5,-18.53802" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3408" partType="Missile-Long-1" position="-1.162626,18.5,-18.53802" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3409" partType="Missile-Long-1" position="-0.1626258,18.5,-18.53802" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3410" partType="Missile-Long-1" position="1.071706,18.5,-18.53802" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3411" partType="Missile-Long-1" position="2.071707,18.5,-18.53802" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3412" partType="Missile-Long-1" position="3.071707,18.5,-18.53802" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3413" partType="Missile-Long-1" position="4.0717,18.5,-18.53802" rotation="270.0198,0,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.6,1.6,1.6">
-        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="7000" maxHeadingAngleAdjustmentRate="100" maxVelocityAngleAdjustmentRate="100" />
+        <Missile.State activationGroup="0" firingDelay="0.1" killCam="true" lockTime="0" maxRange="150000" maxTargetingAngle="360" maxSpeed="1800" maxFuelTime="300" maxForwardThrustForce="50000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3414" partType="Missile-Ground-2" position="4.071708,18.2,-17.22003" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3415" partType="Missile-Ground-2" position="3.071708,18.2,-17.22051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3416" partType="Missile-Ground-2" position="2.071708,18.2,-17.22051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3417" partType="Missile-Ground-2" position="1.071708,18.2,-17.22051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3418" partType="Missile-Ground-2" position="1.071708,18.2,-20.62051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3419" partType="Missile-Ground-2" position="2.071708,18.2,-20.62051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3420" partType="Missile-Ground-2" position="3.071708,18.2,-20.62051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3421" partType="Missile-Ground-2" position="4.071708,18.2,-20.62051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3422" partType="Missile-Ground-2" position="-3.162628,18.2,-17.22003" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3423" partType="Missile-Ground-2" position="-2.162627,18.2,-17.22051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3424" partType="Missile-Ground-2" position="-1.162627,18.2,-17.22051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3425" partType="Missile-Ground-2" position="-0.1626272,18.2,-17.22051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3426" partType="Missile-Ground-2" position="-3.162628,18.2,-20.62051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3427" partType="Missile-Ground-2" position="-2.162627,18.2,-20.62051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3428" partType="Missile-Ground-2" position="-1.162627,18.2,-20.62051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3429" partType="Missile-Ground-2" position="-0.1626272,18.2,-20.62051" rotation="270,180,0" drag="0,0,0,0,0,0" materials="0,1,3" disableAircraftCollisions="true" scale="1.2,1.2,1.2" massScale="2">
-        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="100000" maxHeadingAngleAdjustmentRate="50" maxVelocityAngleAdjustmentRate="50" />
+        <Missile.State activationGroup="0" killCam="true" maxRange="1500000" maxTargetingAngle="360" maxSpeed="290" maxForwardThrustForce="500000" maxHeadingAngleAdjustmentRate="200" maxVelocityAngleAdjustmentRate="200" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
       <Part id="3441" partType="Fuselage-Body-1" position="5.68172,17.46391,-9.489544" rotation="90,180,0" drag="0,0,0,0,0,0" materials="0" scale="1,1,1" health="1E+10">
@@ -3766,19 +3766,19 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="3.5,2" rearScale="3.5,2" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
-      <Part id="3445" partType="Fuselage-Inlet-1" position="5.681178,18.96355,-10.11454" rotation="330,89.99994,-1.577365E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3445" partType="Fuselage-Inlet-1" position="5.681178,18.96355,-10.11454" rotation="330,89.99994,-1.873121E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="3447" partType="Fuselage-Inlet-1" position="5.806178,18.74705,-8.864544" rotation="330,89.99994,-1.577365E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
+      <Part id="3447" partType="Fuselage-Inlet-1" position="5.806178,18.74705,-8.864544" rotation="330,89.99994,-1.873121E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="3449" partType="Fuselage-Inlet-1" position="5.681179,18.96348,-9.614544" rotation="330,89.99994,-1.577365E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3449" partType="Fuselage-Inlet-1" position="5.681179,18.96348,-9.614544" rotation="330,89.99994,-1.873121E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3450" partType="Countermeasure-1" position="5.33967,19.05505,-10.11454" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
         <CounterMeasureDispenser.State activationGroup="8" type="Flares" launchForce="1000" ammo="65536" />
       </Part>
-      <Part id="3451" partType="Fuselage-Inlet-1" position="5.681179,18.96348,-9.864544" rotation="330,89.99994,-1.577365E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3451" partType="Fuselage-Inlet-1" position="5.681179,18.96348,-9.864544" rotation="330,89.99994,-1.873121E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3453" partType="Fuselage-Inlet-1" position="5.556179,19.18006,-9.364544" rotation="330,89.99994,180" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
@@ -3790,13 +3790,13 @@
       <Part id="3457" partType="Fuselage-Inlet-1" position="5.556179,19.18006,-9.114544" rotation="330,89.99994,180" drag="0.001467895,0.001467895,0,0,0.00150336,0.258" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="3459" partType="Fuselage-Inlet-1" position="5.806178,18.74705,-9.614544" rotation="330,89.99994,-1.577365E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
+      <Part id="3459" partType="Fuselage-Inlet-1" position="5.806178,18.74705,-9.614544" rotation="330,89.99994,-1.873121E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="3461" partType="Fuselage-Inlet-1" position="5.806178,18.74705,-9.864544" rotation="330,89.99994,-1.577365E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
+      <Part id="3461" partType="Fuselage-Inlet-1" position="5.806178,18.74705,-9.864544" rotation="330,89.99994,-1.873121E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="3463" partType="Fuselage-Inlet-1" position="5.806178,18.74705,-10.11454" rotation="330,89.99994,-1.577365E-05" drag="0.000425427,0.000425427,0,0,0,0.006" materials="6,6,-3" health="1E+10">
+      <Part id="3463" partType="Fuselage-Inlet-1" position="5.806178,18.74705,-10.11454" rotation="330,89.99994,-1.873121E-05" drag="0.000425427,0.000425427,0,0,0,0.006" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3465" partType="Fuselage-Inlet-1" position="5.556179,19.18006,-9.614544" rotation="330,89.99994,180" drag="0.001537731,0.001537731,0,0,0.00184256,0.254" materials="6,6,-3" health="1E+10">
@@ -3814,13 +3814,13 @@
       <Part id="3473" partType="Fuselage-Inlet-1" position="5.806178,18.74705,-9.364544" rotation="330,90,7.886823E-06" drag="0.0001789484,0.0001789484,0,0,0,0.002" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="3475" partType="Fuselage-Inlet-1" position="5.681179,18.96348,-9.364521" rotation="330,89.99994,-1.577365E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3475" partType="Fuselage-Inlet-1" position="5.681179,18.96348,-9.364521" rotation="330,89.99994,-1.873121E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="3477" partType="Fuselage-Inlet-1" position="5.681179,18.96348,-9.114513" rotation="330,89.99994,-1.577365E-05" drag="0.0004916657,0.0004916657,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3477" partType="Fuselage-Inlet-1" position="5.681179,18.96348,-9.114513" rotation="330,89.99994,-1.873121E-05" drag="0.0004916657,0.0004916657,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="3478" partType="Fuselage-Inlet-1" position="5.681503,18.96379,-8.864544" rotation="330,89.99994,-1.577365E-05" drag="0.0333092,0.0333092,0,0,8.640001E-06,0.4493125" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3478" partType="Fuselage-Inlet-1" position="5.681503,18.96379,-8.864544" rotation="330,89.99994,-1.873121E-05" drag="0.0333092,0.0333092,0,0,8.640001E-06,0.4493125" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3481" partType="Fuselage-Body-1" position="5.68172,18.5889,-10.42704" rotation="90,180,0" drag="0,0,0,0,1.6E-06,0.48324" materials="0" scale="1,1,1" health="1E+10">
@@ -4036,25 +4036,25 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="3.5,2" rearScale="3.5,2" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
-      <Part id="3548" partType="Fuselage-Inlet-1" position="6.394031,22.54484,-42.36839" rotation="330,89.99994,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3548" partType="Fuselage-Inlet-1" position="6.394031,22.54484,-42.36839" rotation="330,89.99995,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3549" partType="Countermeasure-1" position="6.177519,22.41984,-42.36839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
         <CounterMeasureDispenser.State activationGroup="8" type="Chaff" launchForce="1000" ammo="65536" />
       </Part>
-      <Part id="3550" partType="Fuselage-Inlet-1" position="6.519031,22.32834,-41.11839" rotation="330,89.99994,-1.971706E-05" drag="0.002703844,0.002703844,0,0,0.00148727,0.005" materials="6,6,-3" health="1E+10">
+      <Part id="3550" partType="Fuselage-Inlet-1" position="6.519031,22.32834,-41.11839" rotation="330,89.99995,-1.971706E-05" drag="0.002703844,0.002703844,0,0,0.00148727,0.005" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3551" partType="Countermeasure-1" position="6.302519,22.20334,-41.11839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
         <CounterMeasureDispenser.State activationGroup="8" type="Chaff" launchForce="1000" ammo="65536" />
       </Part>
-      <Part id="3552" partType="Fuselage-Inlet-1" position="6.394032,22.54477,-41.86839" rotation="330,89.99994,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3552" partType="Fuselage-Inlet-1" position="6.394032,22.54477,-41.86839" rotation="330,89.99995,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3553" partType="Countermeasure-1" position="6.177519,22.41977,-41.86839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
         <CounterMeasureDispenser.State activationGroup="8" type="Chaff" launchForce="1000" ammo="65536" />
       </Part>
-      <Part id="3554" partType="Fuselage-Inlet-1" position="6.394032,22.54477,-42.11839" rotation="330,89.99994,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3554" partType="Fuselage-Inlet-1" position="6.394032,22.54477,-42.11839" rotation="330,89.99995,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3555" partType="Countermeasure-1" position="6.177519,22.41977,-42.11839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
@@ -4078,19 +4078,19 @@
       <Part id="3561" partType="Countermeasure-1" position="6.052519,22.63635,-41.36839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
         <CounterMeasureDispenser.State activationGroup="8" type="Flares" launchForce="1000" ammo="65536" />
       </Part>
-      <Part id="3562" partType="Fuselage-Inlet-1" position="6.519031,22.32834,-41.86839" rotation="330,89.99994,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
+      <Part id="3562" partType="Fuselage-Inlet-1" position="6.519031,22.32834,-41.86839" rotation="330,89.99995,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3563" partType="Countermeasure-1" position="6.302519,22.20334,-41.86839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
         <CounterMeasureDispenser.State activationGroup="8" type="Flares" launchForce="1000" ammo="65536" />
       </Part>
-      <Part id="3564" partType="Fuselage-Inlet-1" position="6.519031,22.32834,-42.11839" rotation="330,89.99994,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
+      <Part id="3564" partType="Fuselage-Inlet-1" position="6.519031,22.32834,-42.11839" rotation="330,89.99995,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3565" partType="Countermeasure-1" position="6.302519,22.20334,-42.11839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
         <CounterMeasureDispenser.State activationGroup="8" type="Chaff" launchForce="1000" ammo="65536" />
       </Part>
-      <Part id="3566" partType="Fuselage-Inlet-1" position="6.519031,22.32834,-42.36839" rotation="330,89.99994,-1.971706E-05" drag="0.003031597,0.003031597,0,0,0.0009588587,0.5953064" materials="6,6,-3" health="1E+10">
+      <Part id="3566" partType="Fuselage-Inlet-1" position="6.519031,22.32834,-42.36839" rotation="330,89.99995,-1.971706E-05" drag="0.003031597,0.003031597,0,0,0.0009588587,0.5953064" materials="6,6,-3" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3567" partType="Countermeasure-1" position="6.302519,22.20334,-42.36839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
@@ -4126,16 +4126,16 @@
       <Part id="3577" partType="Countermeasure-1" position="6.302519,22.20334,-41.61839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
         <CounterMeasureDispenser.State activationGroup="8" type="Chaff" launchForce="1000" ammo="65536" />
       </Part>
-      <Part id="3578" partType="Fuselage-Inlet-1" position="6.394032,22.54477,-41.61836" rotation="330,89.99994,-1.971706E-05" drag="0.002337618,0.002337618,0,0,0.00284228,0.003" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3578" partType="Fuselage-Inlet-1" position="6.394032,22.54477,-41.61836" rotation="330,89.99995,-1.971706E-05" drag="0.002337618,0.002337618,0,0,0.00284228,0.003" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3579" partType="Countermeasure-1" position="6.177519,22.41977,-41.61836" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
         <CounterMeasureDispenser.State activationGroup="8" type="Flares" launchForce="1000" ammo="65536" />
       </Part>
-      <Part id="3580" partType="Fuselage-Inlet-1" position="6.394032,22.54477,-41.36836" rotation="330,89.99994,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3580" partType="Fuselage-Inlet-1" position="6.394032,22.54477,-41.36836" rotation="330,89.99995,-1.971706E-05" drag="0,0,0,0,0,0" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
-      <Part id="3581" partType="Fuselage-Inlet-1" position="6.394354,22.54508,-41.11839" rotation="330,89.99994,-1.971706E-05" drag="0.04254696,0.04254696,0,0,0.008090278,0.009000001" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
+      <Part id="3581" partType="Fuselage-Inlet-1" position="6.394354,22.54508,-41.11839" rotation="330,89.99995,-1.971706E-05" drag="0.04254696,0.04254696,0,0,0.008090278,0.009000001" materials="6,6,-3" disableAircraftCollisions="true" scale="1,1,1" health="1E+10">
         <Fuselage.State version="2" frontScale="0.5,0.5" rearScale="0.5,0.5" offset="0,0,3" deadWeight="0" buoyancy="0" fuelPercentage="0" inletSlant="0" inletTrimSize="0" inletThicknessFront="0.3" inletThicknessRear="0.33" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
       </Part>
       <Part id="3582" partType="Countermeasure-1" position="6.177845,22.42008,-41.11839" rotation="0,0,300" drag="0,0,0,0,0,0" materials="6,6,6" scale="0.5,0.5,0.5">
@@ -4606,7 +4606,7 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="1,1" rearScale="0,0" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="3,3,3,3,2,2,2,2" />
       </Part>
-      <Part id="3710" partType="Engine-Prop-5" position="1.102565,20.20131,-76.48527" rotation="0,90,45" drag="0.02823292,0.02823292,0.07014269,0.07014269,0.016144,0.3257431" centerOfMass="-1.578816E-06,-1.560994E-06,0.1495001" materials="9,9,9,9,-3" disableAircraftCollisions="true" scale="0.864,0.864,0.864" massScale="0">
+      <Part id="3710" partType="Engine-Prop-5" position="1.102565,20.20131,-76.48527" rotation="0,90,45" drag="0.02823292,0.02823292,0.07014269,0.07014269,0.016144,0.3257431" centerOfMass="-1.782179E-08,0,0.1495001" materials="9,9,9,9,-3" disableAircraftCollisions="true" scale="0.864,0.864,0.864" massScale="0">
         <InputController.State activationGroup="7" invert="false" min="0" max="1" input="Throttle" zeroOnDeactivate="false" />
         <InputController.State activationGroup="7" invert="true" min="-1" max="1" input="Yaw" />
         <PropEngineAdvanced.State power="500" maxRpm="100000" propellerCount="4" diameter="2.921" chordScale="1.444444" pitchControlType="Manual" propellerPitch="0" propellerPitchScale="0.07070707" throttleControlType="Manual" reverseRotation="False" propellerType="Cessna" />
@@ -4686,7 +4686,7 @@
         <Bomb.State activationGroup="0" />
         <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
       </Part>
-      <Part id="3731" partType="Fuselage-Body-1" position="5.919322,14.1901,-3.311943" rotation="-5.008966E-06,180,270" drag="0.08662602,0.08662602,0,0,0.0009488306,12.19906" materials="4" scale="3.8016,3.8016,3.8016">
+      <Part id="3731" partType="Fuselage-Body-1" position="5.919322,14.1901,-3.311943" rotation="-5.008967E-06,180,270" drag="0.08662602,0.08662602,0,0,0.0009488306,12.19906" materials="4" scale="3.8016,3.8016,3.8016">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="2" frontScale="3,0.25" rearScale="3,0.25" offset="0,0,4.65" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
