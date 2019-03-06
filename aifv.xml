@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft name="aifv" url="" theme="Default" size="4.084054,2.426053,5.363553" boundsMin="-2.396554,1.482301,-2.863553" xmlVersion="6" legacyJointIdentification="false">
+  <Assembly>
+    <Parts>
+      <Part id="4" partType="Fuselage-Body-1" position="-0.3124993,2.908354,0" rotation="0,0,0" drag="2.993176,2.993176,12.07263,12.07263,5.438644,3.280008" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="5,2" rearScale="5,2" offset="0,0,10" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="5" partType="Cockpit-4" position="-0.3124993,3.658354,0.1874995" rotation="0,0,0" drag="0.1847767,0.1847767,0,0,0.1955,0.1955" materials="7,0,1" scale="1,1,1">
+        <Cockpit.State primaryCockpit="True" lookBackTranslation="0,0" />
+      </Part>
+      <Part id="6" partType="Fuselage-Body-1" position="1.3125,2.908354,0" rotation="0,0,0" drag="0.07902343,0.07902343,1.3762,1.3762,0.03212269,0.0808" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.5,0.25" rearScale="1.5,0.25" offset="0,0,10" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="9" partType="Wheel-Resizable-1" position="1.162501,2.095854,-2.25" rotation="0,180,0" drag="0.01291536,0.01291536,0.15,0.15,0.152888,0.15" materials="6,4,4">
+        <ResizableWheel.State turningAngle="0" engineId="0" direction="Normal" size="2.5" width="1" tire="Tractor" damper="1" spring="1" enableSuspension="false" enableAutoTraction="false" turningRate="150" brakeTorque="50" slipForwardExtremum="8" slipForwardAsymptote="10" slipSidewaysExtremum="15" slipSidewaysAsymptote="20" tractionForward="1.5" tractionSideways="1.5" />
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Yaw" zeroOnDeactivate="false" />
+      </Part>
+      <Part id="10" partType="Fuselage-Body-1" position="0.9375002,2.345854,-2.25" rotation="0,90,0" drag="0.06160052,0.06160052,0.2510129,0.2510129,0.2719999,0.00248" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,2" rearScale="1,2" offset="0,0,0.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,2,2,0,0,2,2,0" />
+      </Part>
+      <Part id="11" partType="Fuselage-Body-1" position="0.9375002,2.345854,-0.75" rotation="0,90,0" drag="0.1059169,0.1059169,0.2413654,0.2413654,0.268,0.00176" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,2" rearScale="1,2" offset="0,0,0.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,2,2,0,0,2,2,0" />
+      </Part>
+      <Part id="12" partType="Wheel-Resizable-1" position="1.1625,2.095854,-0.75" rotation="0,180,0" drag="0.008528892,0.008528892,0.15,0.15,0.15,0.15" materials="6,4,4">
+        <ResizableWheel.State turningAngle="0" engineId="0" direction="Normal" size="2.5" width="1" tire="Tractor" damper="1" spring="1" enableSuspension="false" enableAutoTraction="false" turningRate="150" brakeTorque="50" slipForwardExtremum="8" slipForwardAsymptote="10" slipSidewaysExtremum="15" slipSidewaysAsymptote="20" tractionForward="1.5" tractionSideways="1.5" />
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Yaw" zeroOnDeactivate="false" />
+      </Part>
+      <Part id="13" partType="Fuselage-Body-1" position="0.9375007,2.345854,0.75" rotation="0,90,0" drag="0.3889306,0.3889306,0.2413654,0.2413654,0.268,0.003560001" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,2" rearScale="1,2" offset="0,0,0.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,2,2,0,0,2,2,0" />
+      </Part>
+      <Part id="14" partType="Wheel-Resizable-1" position="1.162501,2.095854,0.75" rotation="0,180,0" drag="0.15,0.15,0.155,0.155,0.15432,0.15" materials="6,4,4">
+        <ResizableWheel.State turningAngle="0" engineId="0" direction="Normal" size="2.5" width="1" tire="Tractor" damper="2.5" spring="2.5" enableSuspension="true" enableAutoTraction="false" turningRate="150" brakeTorque="50" slipForwardExtremum="8" slipForwardAsymptote="10" slipSidewaysExtremum="15" slipSidewaysAsymptote="20" tractionForward="1.5" tractionSideways="1.5" />
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Yaw" zeroOnDeactivate="false" />
+      </Part>
+      <Part id="15" partType="Fuselage-Body-1" position="-1.687499,2.345854,0.75" rotation="0,270,0" drag="0.2154177,0.2154177,0.1173271,0.1173271,0.0044,0.3889999" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,2" rearScale="1,2" offset="0,0,0.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,2,2,0,0,2,2,0" />
+      </Part>
+      <Part id="16" partType="Wheel-Resizable-1" position="-1.912499,2.095854,0.75" rotation="0,-1.001791E-05,0" drag="0.152,0.152,0.167,0.167,0.1730001,0.151" materials="6,4,4">
+        <ResizableWheel.State turningAngle="0" engineId="0" direction="Reversed" size="2.5" width="1" tire="Tractor" damper="2.5" spring="2.5" enableSuspension="true" enableAutoTraction="false" turningRate="150" brakeTorque="50" slipForwardExtremum="8" slipForwardAsymptote="10" slipSidewaysExtremum="15" slipSidewaysAsymptote="20" tractionForward="1.5" tractionSideways="1.5" />
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Yaw" zeroOnDeactivate="false" />
+      </Part>
+      <Part id="17" partType="Fuselage-Body-1" position="-1.687499,2.345854,-0.75" rotation="0,270,0" drag="0.1517394,0.1517394,0.1173271,0.1173271,0.0044,0.3889999" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,2" rearScale="1,2" offset="0,0,0.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,2,2,0,0,2,2,0" />
+      </Part>
+      <Part id="18" partType="Wheel-Resizable-1" position="-1.912498,2.095854,-0.75" rotation="0,-1.001791E-05,0" drag="0.04699348,0.04699348,0.167,0.167,0.1730001,0.151" materials="6,4,4">
+        <ResizableWheel.State turningAngle="0" engineId="0" direction="Reversed" size="2.5" width="1" tire="Tractor" damper="1" spring="1" enableSuspension="false" enableAutoTraction="false" turningRate="150" brakeTorque="50" slipForwardExtremum="8" slipForwardAsymptote="10" slipSidewaysExtremum="15" slipSidewaysAsymptote="20" tractionForward="1.5" tractionSideways="1.5" />
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Yaw" zeroOnDeactivate="false" />
+      </Part>
+      <Part id="19" partType="Fuselage-Body-1" position="-1.687499,2.345854,-2.25" rotation="0,270,0" drag="0.1504888,0.1504888,0.1173271,0.1173271,0.0044,0.3889999" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,2" rearScale="1,2" offset="0,0,0.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,2,2,0,0,2,2,0" />
+      </Part>
+      <Part id="20" partType="Wheel-Resizable-1" position="-1.912499,2.095854,-2.25" rotation="0,-1.001791E-05,0" drag="0.04670715,0.04670715,0.167,0.167,0.1730001,0.151" materials="6,4,4">
+        <ResizableWheel.State turningAngle="0" engineId="0" direction="Reversed" size="2.5" width="1" tire="Tractor" damper="1" spring="1" enableSuspension="false" enableAutoTraction="false" turningRate="150" brakeTorque="50" slipForwardExtremum="8" slipForwardAsymptote="10" slipSidewaysExtremum="15" slipSidewaysAsymptote="20" tractionForward="1.5" tractionSideways="1.5" />
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Yaw" zeroOnDeactivate="false" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="5" partB="4" attachPointsA="1" attachPointsB="3" />
+      <Connection partA="6" partB="4" attachPointsA="6" attachPointsB="5" />
+      <Connection partA="10" partB="6" attachPointsA="3" attachPointsB="2" />
+      <Connection partA="11" partB="6" attachPointsA="3" attachPointsB="2" />
+      <Connection partA="13" partB="6" attachPointsA="3" attachPointsB="2" />
+      <Connection partA="9" partB="10" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="12" partB="11" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="14" partB="13" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="16" partB="15" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="18" partB="17" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="20" partB="19" attachPointsA="0" attachPointsB="0" />
+    </Connections>
+    <Bodies>
+      <Body partIds="4,5,6,10,11,13" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="9" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="12" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="14" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="15" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="16" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="17" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="18" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="19" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="20" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <Theme name="Custom">
+    <Material color="E9E9E9" r="0.15" m="0.5" s="0.7" />
+    <Material color="000000" r="0.3" m="0.5" s="0.83" />
+    <Material color="001F7F" r="0.3" m="0.5" s="0.83" />
+    <Material color="AA2A00" r="0.15" m="0.5" s="0.7" />
+    <Material color="3F3F3F" r="0" m="0.65" s="0.08" />
+    <Material color="5C0000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="FFF0F0" r="0" m="0.65" s="0.08" />
+    <Material color="FF0F0F" r="0" m="0.65" s="0.08" />
+    <Material color="AAAAAA" r="0" m="0.65" s="0.08" />
+    <Material color="3F3F3F" r="0.15" m="0.5" s="0.7" />
+    <Material color="ABABAB" r="0" m="0.65" s="0.08" />
+    <Material color="446677" r="0" m="0.65" s="0.08" />
+    <Material color="FF1143" r="0" m="0.65" s="0.08" />
+    <Material color="FF6A12" r="0" m="0.65" s="0.08" />
+    <Material color="000000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="1E1E1E" r="0" m="0.65" s="0.08" />
+    <Material color="D0D0D0" r="0" m="0.65" s="0.08" />
+  </Theme>
+</Aircraft>
