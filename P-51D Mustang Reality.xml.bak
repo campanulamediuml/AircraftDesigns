@@ -30,7 +30,7 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="1" frontScale="2,2.75" rearScale="1.75,2" offset="0,0.5,2" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="2,1,1,2,2,0,0,2" />
       </Part>
-      <Part id="226" partType="Fuselage-Body-1" position="2.165739E-06,3.629232,-3.122973" rotation="0,0,0" drag="0.01883273,0.01883273,0.024,0.024,0.2375108,0.2375108" materials="0" scale="0.825,0.825,0.825">
+      <Part id="226" partType="Fuselage-Body-1" position="2.165739E-06,3.629232,-3.122973" rotation="0,0,0" drag="0.01883293,0.01883293,0.024,0.024,0.2375108,0.2375108" materials="0" scale="0.825,0.825,0.825">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="1" frontScale="1,0.5" rearScale="0.25,0.2" offset="0,0.75,3.75" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,1,1,0,0,1,1,0" />
       </Part>
@@ -60,11 +60,11 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="1" frontScale="2,1.75" rearScale="1.75,1.5" offset="0,0,2" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="1,3,3,1,0,3,3,0" />
       </Part>
-      <Part id="579" partType="Fuselage-Body-1" position="2.195541E-06,3.422983,-1.421413" rotation="0,0,0" drag="0.01398241,0.01398241,0.023,0.023,0.3454498,0.3454498" materials="6" scale="0.825,0.825,0.825">
+      <Part id="579" partType="Fuselage-Body-1" position="2.195541E-06,3.422983,-1.421413" rotation="0,0,0" drag="0.01398241,0.01398241,0.023,0.023,0.3456498,0.3456498" materials="6" scale="0.825,0.825,0.825">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="1" frontScale="1.75,1.5" rearScale="1.1,1.25" offset="0,0.25,4.5" deadWeight="0" buoyancy="1" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,3,3,0,0,1,1,0" />
       </Part>
-      <Part id="580" partType="Fuselage-Body-1" position="2.165739E-06,3.680795,-3.2261" rotation="0,0,0" drag="0.04668074,0.04668074,0.4224335,0.4224335,0.3281119,0.328112" materials="0" scale="0.825,0.825,0.825" massScale="0">
+      <Part id="580" partType="Fuselage-Body-1" position="2.165739E-06,3.680795,-3.2261" rotation="0,0,0" drag="0.04808533,0.04808533,0.4827937,0.4827937,0.3180924,0.3180925" materials="0" scale="0.825,0.825,0.825" massScale="0">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="1" frontScale="1.1,1.25" rearScale="0.25,1.75" offset="0,1,4.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,1,1,0,1,1,1,1" />
       </Part>
@@ -210,7 +210,7 @@
         <InputController.State activationGroup="0" invert="true" min="0" max="1" input="LandingGear" />
         <JointRotator.State range="85" speed="0.3" disableBaseMesh="true" />
       </Part>
-      <Part id="657" partType="Wheel-2" position="1.957123E-06,3.165168,-2.44235" rotation="0,180,0" drag="0.2015998,0.2015998,0.204,0.204,0.2,0.2" materials="0,6,4,-3" scale="0.4125,1.03125,1.03125">
+      <Part id="657" partType="Wheel-2" position="1.957123E-06,3.165168,-2.44235" rotation="0,180,0" drag="0,0,0,0,0,0" materials="0,6,4,-3" scale="0.4125,1.03125,1.03125">
         <RetractableLandingGear.State sensitivity="1" turningEnabled="false" flipped="false" damper="0.7" spring="1" />
         <InputController.State activationGroup="0" invert="false" min="-45" max="45" input="Yaw" zeroOnDeactivate="false" />
       </Part>
@@ -441,7 +441,7 @@
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="1" frontScale="0.25,1.75" rearScale="0.25,1.875" offset="0,0.0625,0.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
-      <Part id="749" partType="Fuselage-Body-1" position="5.139736E-07,3.892297,-4.423634" rotation="0,180,180" drag="0.007866745,0.007866745,0.1492679,0.1492679,0.257,0.257" materials="2" scale="0.8250049,0.8250017,0.8250017">
+      <Part id="749" partType="Fuselage-Body-1" position="5.139736E-07,3.892297,-4.423634" rotation="0,180,180" drag="0.007920032,0.007920032,0.1492679,0.1492679,0.257,0.257" materials="2" scale="0.8250049,0.8250017,0.8250017">
         <FuelTank.State fuel="0" capacity="0" />
         <Fuselage.State version="1" frontScale="0.25,1.25" rearScale="0.25,1.5" offset="0,0.25,1.5" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
       </Part>
